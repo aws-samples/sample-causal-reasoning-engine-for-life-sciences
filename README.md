@@ -2,6 +2,10 @@
 
 A neuro-symbolic causal reasoning engine for biomedical knowledge graphs. It combines a graph neural network over a heterogeneous compound/gene/disease graph with symbolic pathway rules, and uses Amazon Bedrock to turn numeric causal estimates into readable explanations.
 
+![Causal analysis interface](docs/images/causal_reasoning_engine.png)
+
+The screenshot shows a counterfactual query: intervening on the CDH3 gene for the compound Goserelin against a prostate cancer outcome. The estimated effect is charted, and Amazon Bedrock explains the clinical implications and biological mechanisms below it.
+
 ## Architecture
 
 ```
