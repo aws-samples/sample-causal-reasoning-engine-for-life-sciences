@@ -1,0 +1,17 @@
+[project]
+name = "causalllm"
+version = "0.1.0"
+description = "The causal reasoning engine implement a causal graph neural network for biomedical causal reasoning and drug repurposing"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.28.0",
+    "flask>=3.1.2",
+    "flask-cors>=6.0.1",
+    "networkx>=2.6.0",
+    "numpy>=1.21.0",
+    "pandas>=1.3.0",
+    "scikit-learn>=1.0.0",
+    "tokenizers>=0.13.0",
+    "torch>=2.0.0",
+    "transformers>=4.20.0",
+]
