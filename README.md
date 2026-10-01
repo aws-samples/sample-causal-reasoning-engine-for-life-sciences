@@ -1,6 +1,6 @@
 # Causal Reasoning Engine for Life Sciences
 
-A sample neuro-symbolic causal reasoning engine for biomedical knowledge graphs. It combines a graph neural network over a heterogeneous compound/gene/disease graph with symbolic pathway rules, and uses Amazon Bedrock to turn numeric causal estimates into readable explanations.
+A neuro-symbolic causal reasoning engine for biomedical knowledge graphs. It combines a graph neural network over a heterogeneous compound/gene/disease graph with symbolic pathway rules, and uses Amazon Bedrock to turn numeric causal estimates into readable explanations.
 
 ## Architecture
 
